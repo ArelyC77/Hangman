@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Disney Villains</title>
+	
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+
+	
+	<div class='container'>
+		<div class='jumbotron'>
+			<div class='container'>
+				<h1 style= "color: white">Disney Villains Hangman</h1>
+				<h2 style = "color:#42d9f4">Guess the Villain</h2>
+				<small style="color: #00fcbd">Click any letter to begin...</small>
+			</div>
+		</div>
+
+
+
+		
+		<div class='panel panel-default'>
+			<div class='panel-heading'>
+				<h3 class='panel title'><strong style="color:#ea69e1">Word to Guess</strong></h3>
+			</div>
+
+			<div class="panel-body">
+
+				<h3 id="word-blanks">_ _ _ _ _ _ _ _ _ _</h3>
+		
+		</div>
+   </div>
+
+
+
+
+	<div class ="panel panel-default">
+		<div class="panel-body">
+			
+			<strong style="color:#ea69e1"> Wrong Guesses: </strong> <span id ="wrong-guesses">0</span>
+		
+		</div>
+	
+	</div>
+
+
+
+
+
+
+<div class ="panel panel-default">
+		<div class="panel-body">
+			
+			<strong style="color:#ea69e1"> Guesses Left: </strong> <span id ="guesses-left">9</span>
+		
+		</div>
+
+	</div>
+
+
+
+<div class ="panel panel-default">
+		<div class="panel-body">
+			<strong style="color:#ea69e1"> Wins: </strong> <span id ="win-counter">0</span>
+		</div>
+
+	</div>
+
+
+
+	<div class ="panel panel-default">
+		<div class="panel-body">
+			<strong style="color:#ea69e1"> Losses: </strong> <span id ="loss-counter">0</span>
+		</div>
+	</div>
+
+ </div>
+
+	<script>
+	window.onload = function() {  // reload file every second
+		setInterval(function() { location.reload(); } , 1000);
+	};
+</script>
+		<script type="logic.js"></script>
+
+		
+
+</body>
+</html>
